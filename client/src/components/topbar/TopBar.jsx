@@ -1,8 +1,14 @@
-import { Link } from "react-router-dom"
-import "./topbar.css"
+import React, {useContext} from 'react';
+import { Link } from "react-router-dom";
+import "./topbar.css";
+import {Context} from "../../context/Context";
 
 export default function TopBar() {
-    const user = false;
+    const {user, dispatch} = useContext(Context);
+    const handleLogout = () => {
+        dispatch({type: "LOGOUT"});
+    }
+
   return (
     <div className="top">
         <div className="topLeft">
@@ -16,7 +22,7 @@ export default function TopBar() {
                 <li className="topListItem"><Link className="link" to="/about">ABOUT</Link></li>
                 <li className="topListItem"><Link className="link" to="/contact">CONTACT</Link></li>
                 <li className="topListItem"><Link className="link" to="/write">WRITE</Link></li>
-                <li className="topListItem">{user && "LOG OUT"}</li>
+                <li className="topListItem" onClick={handleLogout}>{user && "LOG OUT"}</li>
             </ul>
         </div>
         <div className="topRight">
@@ -24,7 +30,7 @@ export default function TopBar() {
                 user ? (
                     <img 
                         className="topImg"
-                        src="https://cdn.donmai.us/original/8d/b9/__keqing_genshin_impact_drawn_by_satomi_745684552__8db98aed248777b5c559c8aed5acce28.png" 
+                        src={user.profilePic} 
                         alt="" 
                     />
                 ) : (

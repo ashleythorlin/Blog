@@ -1,16 +1,16 @@
-import TopBar from "./components/topbar/TopBar.jsx"
-import Home from "./pages/home/Home.jsx"
-import Single from "./pages/single/Single.jsx"
-import Write from "./pages/write/Write.jsx"
-import Settings from "./pages/settings/Settings.jsx"
-import Login from "./pages/login/Login.jsx"
-import Register from "./pages/register/Register.jsx"
-
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-
+import React, {useContext} from 'react';
+import TopBar from "./components/topbar/TopBar.jsx";
+import Home from "./pages/home/Home.jsx";
+import Single from "./pages/single/Single.jsx";
+import Write from "./pages/write/Write.jsx";
+import Settings from "./pages/settings/Settings.jsx";
+import Login from "./pages/login/Login.jsx";
+import Register from "./pages/register/Register.jsx";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {Context} from "./context/Context"
 
 function App() {
-  const user = false;
+  const {user} = useContext(Context);
   return (
     <Router>
       <TopBar />
