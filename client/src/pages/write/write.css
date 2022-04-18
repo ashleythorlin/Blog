@@ -1,5 +1,8 @@
+@import url("../../styles.css");
+
 .write {
     padding-top: 50px;
+    background-color: var(--background);
 }
 
 .writeImg {

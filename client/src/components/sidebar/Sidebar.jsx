@@ -39,9 +39,9 @@ export default function Sidebar() {
         <div className="sidebarItem">
             <span className="sidebarTitle">FOLLOW ME</span>
             <div className="sidebarSocial">
-                <i className="sidebarIcon fab fa-instagram-square"></i>
-                <i className="sidebarIcon fab fa-twitter-square"></i>
-                <i className="sidebarIcon fab fa-linkedin"></i>
+                <a href="https://www.instagram.com/ashley_thorlin/"><i className="sidebarIcon fab fa-instagram-square"></i></a>
+                <a href="https://www.github.com/ashleythorlin"><i className="sidebarIcon fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/ashley-thorlin"><i className="sidebarIcon fab fa-linkedin"></i></a>
             </div>
         </div>
     </div>
