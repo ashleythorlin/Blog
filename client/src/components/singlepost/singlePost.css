@@ -1,5 +1,16 @@
 .singlePost {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
     flex: 9;
+    background-color: var(--altback);
+    border-radius: 20px;
+    padding: 30px;
+    max-height: 500px;
+    margin: 15px;
+    min-width: 20%;
 }
 
 .singlePostWrapper {
@@ -69,6 +80,7 @@
   .singlePostDescInput:focus {
     outline: none;
   }
+
   .singlePostButton {
     width: 100px;
     border: none;

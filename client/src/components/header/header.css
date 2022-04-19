@@ -1,5 +1,8 @@
+@import url("../../styles.css");
+
 .header {
     margin-top: 60px;
+    
 }
 
 .headerTitles {
@@ -7,19 +10,22 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    color: #333;
+    color: var(--powder);
+    background-color: inherit;
 }
 
 .headerTitleSm {
     position: absolute;
     top: 8%;
     font-size: 20px;
+    background-color: inherit;
 }
 
 .headerTitleLg {
     position: absolute;
     top: 12%;
     font-size: 100px;
+    background-color: inherit;
 }
 
 .headerImg {
@@ -27,4 +33,5 @@
     height: 450px;
     margin-top: 80px;
     object-fit: cover;
+    background-color: inherit;
 }

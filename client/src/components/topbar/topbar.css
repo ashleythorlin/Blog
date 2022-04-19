@@ -1,3 +1,9 @@
+@import url("../../styles.css");
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 .topIcon {
     font-size: 20px;
     margin-right: 10px;
@@ -8,13 +14,15 @@
 .top{
     width: 100%;
     height: 50px;
-    background-color: white;   
+    background-color: var(--altback);   
     position: sticky;
     top: 0;
     display: flex;
     align-items: center;
     font-family: 'Poppins', sans-serif;
     z-index: 999;
+    color: var(--teal);
+    box-shadow: 3px 3px 7px 2px var(--shadow);
 }
 
 .topLeft, .topRight {
@@ -56,7 +64,15 @@
     color: #666;
     cursor: pointer;
     margin-left: 15px;
+    color: var(--teal);
 }
 
-
+.topLeft a {
+    font-size: 24px;
+    min-width: 30px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+    color: var(--teal);
+}
 

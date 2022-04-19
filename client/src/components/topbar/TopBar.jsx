@@ -14,9 +14,9 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <i className="topIcon fab fa-instagram-square"></i>
-        <i className="topIcon fab fa-twitter-square"></i>
-        <i className="topIcon fab fa-linkedin"></i>
+          <a href="https://www.instagram.com/ashley_thorlin/"><i className="topbarIcon fab fa-instagram-square"></i></a>
+          <a href="https://www.github.com/ashleythorlin"><i className="topbarIcon fab fa-github-square"></i></a>
+          <a href="https://www.linkedin.com/in/ashley-thorlin"><i className="topbarIcon fab fa-linkedin"></i></a>
       </div>
       <div className="topCenter">
         <ul className="topList">

@@ -2,10 +2,12 @@
 
 :root {
     --background: #191919;
+    --altback: #252525;
     --shadow: #090909;
     --font: #ffffff;
     --babyblue: #A8C2FF;
     --mint: #ADFFD9;
-    --teal: #096161;
+    --teal: #1b8383;
     --powder: #B1E0E0;
+    background-color: var(--background);
 }
