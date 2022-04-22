@@ -57,11 +57,11 @@ export default function TopBar() {
                 LOG IN
               </Link>
             </li>
-            <li className="topListItem">
+            {/* <li className="topListItem">
               <Link className="link" to="/register">
                 REGISTER
               </Link>
-            </li>
+            </li> */}
           </ul>
         )}
 

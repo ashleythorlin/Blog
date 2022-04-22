@@ -4,19 +4,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), 
-        url("https://cdn.vox-cdn.com/thumbor/COYeAc6thWVHaetcZ7RjfTJtMIs=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22512212/shrek4_disneyscreencaps.com_675.jpg");
-    background-size: cover;
 }
 
 .loginTitle {
     font-size: 50px;
+    color: var(--teal);
+    font-weight: 500;
 }
 
 .loginForm {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    color: var(--powder);
 }
 
 .loginForm > label {
@@ -24,6 +24,7 @@
 }
 
 .loginInput {
+    margin: 10px 0;
     padding: 10px;
     background-color: white;
     border: none;
@@ -32,7 +33,7 @@
 .loginButton {
     margin-top: 20px;
     cursor: pointer;
-    background-color: lightcoral;
+    background-color: #48a893;
     border: none;
     color: white;
     border-radius: 10px;
@@ -46,12 +47,13 @@
 
 .loginRegisterButton {
     position: absolute;
-    top: 60px;
+    top: 80px;
     right: 20px;
-    background-color: teal;
+    background-color: var(--teal);
     cursor: pointer;
     border: none;
     padding: 10px;
+    width: 100px;
     color: white;
     border-radius: 10px;
 }

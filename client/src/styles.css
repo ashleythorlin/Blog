@@ -9,5 +9,8 @@
     --mint: #ADFFD9;
     --teal: #1b8383;
     --powder: #B1E0E0;
+    --lightgray: #888888;
+    --darkgray: #646464;
+
     background-color: var(--background);
 }

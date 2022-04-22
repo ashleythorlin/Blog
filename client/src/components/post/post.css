@@ -1,6 +1,11 @@
 .post {
-    width: 375px;
-    margin: 0 25px 40px 25px;
+    padding: 15px;
+    background-color: var(--altback);
+    border-radius: 20px;
+    padding: 30px;
+    max-height: 500px;
+    margin: 15px;
+    width: 50%;
 }
 
 .postImg {
@@ -14,6 +19,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.postInfo a{
+    margin: 15px;
 }
 
 .postCat {
@@ -31,13 +40,13 @@
     font-size: 24px;
     font-weight: 700;
     cursor: pointer;
-    margin-top: 15px;
+    color: var(--powder);
 }
 
 .postDate {
     font-family: 'Poppins', sans-serif;
     font-style: italic;
-    color: #999;
+    color: var(--darkgray);
     margin-top: 15px;
 }
 

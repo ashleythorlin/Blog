@@ -39,9 +39,17 @@ export default function Write() {
       )}
       <form className="writeForm" onSubmit={handleSubmit}>
         <div className="writeFormGroup">
-          <label htmlFor="fileInput">
-            <i className="writeIcon fas fa-plus"></i>
-          </label>
+          <div className="imgInput">
+            <label htmlFor="fileInput">
+              <i className="writeIcon fas fa-plus"></i>
+            </label>
+            {file ? (
+                <p className="imgName">{file.name}</p>
+              ):(
+                <p className="imgName">No image selected.</p>
+              )
+            } 
+          </div>
           <input
             type="file"
             id="fileInput"
