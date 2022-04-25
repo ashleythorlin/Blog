@@ -18,7 +18,7 @@ export default function Sidebar() {
         <div className="sidebarItem">
             <span className="sidebarTitle">ABOUT ME</span>
             <img 
-                src="https://cdn.oneesports.gg/cdn-data/2022/01/GenshinImpact_KeqingSkinLanternRite.jpg" 
+                src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" 
                 alt="" 
             />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam 
