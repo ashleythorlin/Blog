@@ -1,5 +1,5 @@
-import React from 'react'
-import "./header.css"
+import React from 'react';
+import "./header.css";
 
 export default function Header() {
   return (
@@ -10,7 +10,7 @@ export default function Header() {
         </div>
         <img 
             className="headerImg"
-            src="https://images.pexels.com/photos/1010496/pexels-photo-1010496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            src="https://images.pexels.com/photos/1010496/pexels-photo-1010496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="" 
         />
     </div>
